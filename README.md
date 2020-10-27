@@ -32,7 +32,10 @@ Stretch Review questions:
     5. In your own words, explain the box model. What is the fix for the box model? 
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it. 
+  When dealing with a conflict in git merge: Use "git status" and "git diff" to find out what went wrong. Resolve the conflicts by any of the following methods: Edit each conflicting file with your favorite editor. "git add" the resolved files. If things get hosed, use "git merge --abort" to start over before the merge.
+
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
 
